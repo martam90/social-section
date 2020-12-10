@@ -1,0 +1,92 @@
+.wrapper {
+  display: block;
+  max-width: 600px;
+  padding: $pad + 40 $pad;
+
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  .big-title {
+    color: $magenta;
+    text-align: center;
+  }
+
+  .text {
+    color: $darkmagenta;
+    text-align: center;
+  }
+
+  .review {
+    padding: $pad + 20 0;
+
+    .rate {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $grayishmagenta;
+      border-radius: 16px;
+      margin-bottom: $pad - 5;
+
+      .stars {
+        padding: $pad - 12;
+      }
+
+      .rate-description {
+        color: $magenta;
+        font-weight: 700;
+        margin: 0;
+        padding: $pad - 12;
+      }
+    }
+  }
+
+  .feedback-item {
+    background-color: $magenta;
+    border-radius: 16px;
+    padding: $pad;
+    margin-bottom: $pad - 5;
+
+    .overlay {
+      display: flex;
+
+      .rounded-img {
+        border-radius: 50%;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: $pad;
+      }
+
+      .small-title {
+        color: $grayishmagenta;
+        font-weight: 700;
+        margin: 0;
+        padding-bottom: $pad - 15;
+      }
+
+      .purple-title {
+        margin: 0;
+        color: $softpink;
+        opacity: 0.5;
+      }
+    }
+
+    .white-text {
+      color: $grayishmagenta;
+      line-height: 1.8;
+      padding: $pad 0;
+      margin: 0;
+      opacity: 0.8;
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  padding: $pad;
+}
