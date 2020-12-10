@@ -17,10 +17,12 @@ body {
   padding: 0;
   font-family: "Spartan", sans-serif;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 .wrapper {
   display: block;
+  margin: 0 auto;
   max-width: 600px;
   padding: 60px 20px;
   background-image: url("../images/bg-pattern-top-mobile.svg");
@@ -131,7 +133,7 @@ body {
 
 @media (min-width: 768px) {
   .wrapper {
-    min-width: 100%;
+    max-width: 100%;
     padding: 50px;
     background: url("../images/bg-pattern-top-desktop.svg") no-repeat top left, url("../images/bg-pattern-bottom-desktop.svg") no-repeat right bottom;
   }
