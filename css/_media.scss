@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: $pad + 30;
     background: url("../images/bg-pattern-top-desktop.svg") no-repeat top left,
       url("../images/bg-pattern-bottom-desktop.svg") no-repeat right bottom;
